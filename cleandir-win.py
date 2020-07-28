@@ -6,7 +6,7 @@ EXT_VIDEO = ['.mp4', '.m4a', '.m4v', '.mov', '.avi', '.wmv', '.fiv', '.mkv', '.f
 EXT_IMAGES = ['.jpeg', '.jpg', '.png', '.svg', '.gif', '.bmp', '.tiff', '.tif', '.psd', '.ai', '.xcf', '.cdr', '.eps', '.raw', '.cr2', '.nef', '.orf', '.sr2']
 EXT_DOCUMENTS = ['.txt', '.pdf', '.doc', '.docx', '.xlsx', '.csv', '.ppt', '.pptx', '.htm', '.html']
 EXT_SOFTWARE = ['.exe', '.msi', '.dmg', '.iso', '.bin']
-EXT_COMPRESSED = ['.zip', '.rar', '.gzip', '.7zip']
+EXT_COMPRESSED = ['.zip', '.rar', '.gzip', '.7z', '.tar', '.tg']
 EXT_SCRIPTS = ['.bas', '.ps1']
 
 print('DOWNLOADS FOLDER CLEANUP')
