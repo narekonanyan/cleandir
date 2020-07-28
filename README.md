@@ -1,2 +1,2 @@
 # cleandir
-Python script that groups file types into folders
+Python script that groups different file types into folders.
