@@ -1,3 +1,6 @@
+# This is a Python script for Windows that groups different file types into folders.
+# The script runs in the folder where it is located
+
 import os
 import shutil
 
