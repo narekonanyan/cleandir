@@ -49,7 +49,7 @@ for f in files:
             if name not in DIRS:
                 shutil.move(f, './Folders/{}'.format(f))
             else:
-                if f != 'cleandir.py':
+                if f != 'cleandir-win.py':
                     shutil.move(f, './Other/{}'.format(f))
 
 print('CLEANUP COMPLETED')
