@@ -10,7 +10,6 @@ EXT_IMAGES = ['.jpeg', '.jpg', '.png', '.svg', '.gif', '.bmp', '.tiff', '.tif', 
 EXT_DOCUMENTS = ['.txt', '.pdf', '.doc', '.docx', '.xlsx', '.csv', '.ppt', '.pptx', '.htm', '.html', '.vsdx', '.accdb']
 EXT_SOFTWARE = ['.exe', '.msi', '.dmg', '.iso', '.bin']
 EXT_COMPRESSED = ['.zip', '.rar', '.gzip', '.7z', '.tar', '.tg']
-EXT_SCRIPTS = ['.bas', '.ps1']
 
 print('DOWNLOADS FOLDER CLEANUP')
 print('Current Directory: {}'.format(os.getcwd()))
@@ -42,8 +41,6 @@ for f in files:
         shutil.move(f, './Software/{}'.format(f))
     elif extension in EXT_COMPRESSED:
         shutil.move(f, './Compressed/{}'.format(f))
-    elif extension in EXT_SCRIPTS:
-        shutil.move(f, './Scripts/{}'.format(f))
     else:
         if os.path.isdir(name):
             if name not in DIRS:
